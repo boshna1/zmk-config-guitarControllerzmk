@@ -1,0 +1,6 @@
+if SHIELD_GUITAR
+
+config ZMK_KEYBOARD_GUITAR
+	default "guitar"
+
+endif
