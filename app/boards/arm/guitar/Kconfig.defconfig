@@ -3,4 +3,8 @@ if SHIELD_GUITAR
 config ZMK_KEYBOARD_GUITAR
 	default "guitar"
 
+CONFIG_USB_HID=y        
+CONFIG_KEYBOARD_GUITAR=y 
+CONFIG_KEYMAP=default     
+
 endif
